@@ -23,7 +23,6 @@ export class CalculatorComponent {
     }
 
     //Do Not Allow 0 at beginning. 
-    //Javascript will throw Octal literals are not allowed in strict mode.
     if (num == "0") {
       if (this.input == "") {
         return;
