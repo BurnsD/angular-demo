@@ -13,13 +13,10 @@ import { LoginFormComponent } from './login-form/login-form.component';
     CalculatorComponent,
     HeaderComponent,
     FooterComponent,
-    LoginFormComponent
+    LoginFormComponent,
   ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
