@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { EmployeeTableComponent } from './employee-table/employee-table.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { EmployeeComponent } from './employee/employee.component';
     FooterComponent,
     LoginFormComponent,
     EmployeeComponent,
+    EmployeeTableComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
