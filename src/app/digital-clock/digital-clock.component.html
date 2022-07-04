@@ -1,0 +1,61 @@
+<body onload="initClock()">
+    
+<div class="dateTime">
+    <div class="date">
+      <span id="dayName">Day</span>
+      <span id="month">Month</span>
+      <span id="dayNum">00</span>
+      <span id="year">Year</span>
+    </div>
+    <div class="time">
+     <span id="hour">00</span>:
+     <span id="minutes">00</span>:
+     <span id="seconds">00</span>
+     <span id="period">AM</span>
+    </div>
+  </div> 
+  <script>
+    
+//     function updateClock(){
+//   var now = new Date();
+//   var dname = now.getDay(),
+//       mo = now.getMonth(),
+//       dnum = now.getDate(),
+//       yr = now.getFullYear(),
+//       hour = now.getHours(),
+//       min = now.getMinutes(),
+//       sec = now.getSeconds(),
+//       pe = "AM";
+
+//       //  Converts Time to Standard 
+//       if(hour == 0){
+//           hour = 12;
+//       }
+//       if(hour > 12){
+//           hour = hour - 12;
+//           pe = "PM";
+//       }
+
+//       // Adds another digit instead of empty space for single digit time
+//       Number.prototype.pad = function(digits){
+//           for(var n = this.toString(); n.length < digits; n = 0 + n);
+//           return n;
+//       }
+
+//       var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+//       var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+//       var ids = ["dayName", "month", "dayNum", "year", "hour", "minutes", "seconds", "pe"];
+//       var values = [week[dname], months[mo], dnum.pad(2), yr, hour.pad(2), min.pad(2), sec.pad(2), pe,];
+
+//       for(var i = 0; i < ids.length; i++)
+//       document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+
+//   }
+
+// function initClock(){
+//   updateClock();
+//   window.setInterval("updateClock()", 1)
+// }
+
+  </script>
+  </body>
