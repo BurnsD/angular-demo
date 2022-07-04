@@ -46,5 +46,12 @@ export class EmployeeTableComponent {
       employeeTitle: 'Engineer',
       employeeImg: 'assets/Bjarne.jpg',
     },
+    {
+      employeeId: 1006,
+      employeeName: 'Rushabh Mehta',
+      employeeSalary: 195000,
+      employeeTitle: 'Director',
+      employeeImg: 'assets/Rushabh.jpg',
+    },
   ];
 }
