@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { EmployeeTableComponent } from './employee-table/employee-table.component';
+import { SimpleCalculatorComponent } from './simple-calculator/simple-calculator.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { EmployeeTableComponent } from './employee-table/employee-table.componen
     LoginFormComponent,
     EmployeeComponent,
     EmployeeTableComponent,
+    SimpleCalculatorComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],

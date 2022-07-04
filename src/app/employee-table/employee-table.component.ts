@@ -52,6 +52,6 @@ export class EmployeeTableComponent {
       employeeSalary: 195000,
       employeeTitle: 'Director',
       employeeImg: 'assets/Rushabh.jpg',
-    },
+    }
   ];
 }
